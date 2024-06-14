@@ -1,6 +1,6 @@
 # BrainHack EcoApp
 
-BrainHack EcoApp is an innovative application designed to promote eco-friendly practices and sustainability. Developed during the BrainHack event, this app aims to educate and engage users in environmentally conscious activities.
+BrainHack EcoApp is an application designed to promote eco-friendly practices and sustainability. Developed during the BrainHack CODE_EXP Hackathon, this app aims to educate and engage users in environmentally conscious activities.
 
 
 ## Table of Contents
@@ -11,8 +11,7 @@ BrainHack EcoApp is an innovative application designed to promote eco-friendly p
 
 ## About
 
-EcoShop was created for the CODE_EXP challenge to inspire and motivate individuals to adopt eco-friendly habits. Through various features such as points reward system, 
-article and posts sharing, and Eco Ratings, the app helps users make a positive impact on the environment.
+EcoShop was created to inspire and motivate individuals to adopt eco-friendly habits. Through various features such as points reward system, article and posts sharing, and Eco Ratings, the app helps users make a positive impact on the environment.
 
 ## Features
 
