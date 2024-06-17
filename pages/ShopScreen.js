@@ -8,7 +8,7 @@ function renderProductBlock(products, navigation) {
     return products.map((product) => (
         <Pressable onPress={() => navigation.navigate("ItemScreen", { product: product })}>
             <View style={{ width: 100, marginRight: 20 }}>
-                <Image style={{ width: 100, height: 100, marginBottom: 5 }} source={product.image} />
+                <Image style={{ width: 100, height: 100, marginBottom: 5, borderRadius: 15 }} source={product.image} />
                 <Text style={{ marginBottom: 5 }}>{product.title}</Text>
                 <Text style={{ fontWeight: "bold" }}>${product.price.toFixed(2)}</Text>
             </View>

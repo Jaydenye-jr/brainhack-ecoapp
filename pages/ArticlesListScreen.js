@@ -12,7 +12,7 @@ function renderPost(rad, navigation) {
         // passes in the article to the ArticleDisplayScreen through props
         <Pressable onPress={() => navigation.navigate("ArticleDisplayScreen", { article: item })} key={item.id}>
             <View style={{ width: "100%", padding: 10, alignItems: "center" }}>
-                <Image style={{ width: "80%", height: 250 }} source={item.image || require("../assets/favicon.png")} />
+                <Image style={{ width: "80%", height: 250 , borderRadius: 15, }} source={item.image || require("../assets/favicon.png")} />
                 <Text style={{ fontWeight: "bold", fontSize: 16, marginBottom: 5 }}>{item.title}</Text>
                 <Text>{item.content.length > 50 ? item.content.slice(0, 50) + "..." : item.content}</Text>
                 <Text style={{ fontSize: 12 }}>{item.credit}</Text>

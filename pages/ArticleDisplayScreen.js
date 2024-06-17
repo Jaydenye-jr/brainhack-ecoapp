@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
         height: 250,
         resizeMode: "cover",
         marginBottom: 10,
+        borderRadius: 15,
     },
     container: {
         flex: 1,

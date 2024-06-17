@@ -9,7 +9,7 @@ function renderCartItems(cart) {
     return cart.map((item) => (
         <View style={{ width: "100%", height: 80, flexDirection: "row" }} key={item.id}>
             <View style={{ height: 60, width: 60, margin: 10, overflow: "hidden" }}>
-                <Image source={item.img} style={{ width: "100%", height: "100%", resizeMode: "cover" }} />
+                <Image source={item.img} style={{ width: "100%", height: "100%", resizeMode: "cover", borderRadius: 15, }} />
             </View>
             <View style={{ flex: 1, padding: 10, justifyContent: "center" }}>
                 <Text style={{ fontSize: 20 }}>{item.title.length > 40 ? item.title.slice(0, 40) + "..." : item.title}</Text>
